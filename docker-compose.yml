@@ -1,0 +1,11 @@
+version: '3'
+services:
+    node:
+        build:
+            dockerfile: Dockerfile
+        command: npm run start
+        volumes:
+            - ./app:/app
+        ports:
+            - "3002:8080"
+        tty: true
