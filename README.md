@@ -1,2 +1,3 @@
-# vanilla-ts-todo-list
-TODO list without frameworks
+# ToDo List
+
+Created for the sake of learning Snowpack and creating a front-end application without frameworks
